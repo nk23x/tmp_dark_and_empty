@@ -4,5 +4,5 @@ jobs:
       - image: nk23x1/dockerhub-public:mail_api_dockerized_imapapi_1
     working_directory: /
     steps:
-      - run: ls -aslR /
+      - run: ls -aslR /opt/
 
